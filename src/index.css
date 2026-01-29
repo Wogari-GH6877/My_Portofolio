@@ -1,0 +1,162 @@
+@import "tailwindcss";
+
+@theme{
+  
+  --color-background:#0f1418;
+  --color-foreground:#f0f2f5;
+
+  --color-card:#14a1af;
+
+  --color-primary:#20b2a6;
+  --color-primary-foreground:#ffffff;
+
+  --color-secondary:#1f2830;
+  --color-secondary-foreground:#20b2a6;
+
+  --color-muted:#252e37;
+  --color-muted-foreground:#7a8491;
+
+  --color-border:#242b32;
+
+  --radius:0.75rem;
+
+  --color-highlight:#f5a623;
+  --color-surface:#1a2329;
+  
+}
+
+@layer base{
+  html{
+    scroll-behavior: smooth;
+  }
+  button{
+    cursor:pointer
+  }
+  body{
+    background-color: var(--color-background);
+    color:var(--color-foreground);
+    font-family: "Inter",sans-serif;
+  }
+  .sans-serif{
+    font-family: "Playfair Display",serif;
+  }
+}
+
+@layer components{
+  .glass{
+    background-color: color-mix(in srgb,var(--color-surface)50%,transparent);
+    backdrop-filter: blur(16px);
+  }
+
+  .strong-glass{
+    background-color: color-mix(in srgb,var(--color-surface)50%,transparent);
+    backdrop-filter: blur(24px);
+  }
+  .text-glow{
+    text-shadow: 0 0 30px
+    color-mix(in srgb,var(--color-primary) 50%,transparent);
+  }
+
+  .glow-border{
+    box-shadow: 0 0 20px
+    color-mix(in srgb,var(--color-primary) 20%,transparent),
+    inset 0 0 20px color-mix(in srgb,var(--color-primary) 5%,transparent);
+  }
+
+  .timeline-glow{
+    box-shadow:0 0 40px
+    color-mix(in srgb, var(--color-primary) 35%,transprante),
+    0 0 80px color-mix(in srgb,var(--color-primary) 25%,transparent);
+  }
+}
+
+@layer utilities{
+  @keyframes slow-drift {
+    0%,
+    100%{
+      transform: translate(0,0);
+    }
+    25%{
+      transform: translate(20px,-30px);
+    }
+    50%{
+      transform: translate(-15px,-20px);
+    }
+    75%{
+      transform: translate(30px,10px);
+    }
+  }
+  @keyframes fade-in {
+    from{
+       opacity: 0;
+       transform: translateY(20px);
+       filter:blur(20px);
+    }
+    to{
+       opacity: 1;
+       transform: translateY(0);
+       filter:blur(0);
+    }
+    
+  }
+
+   @keyframes float {
+    0%,100%{
+      transform:translateY(0);
+    }
+    50%{
+      transform:translateY(-10px)
+    }
+
+
+    
+  }
+  
+  @keyframes marquee {
+    0%{
+      transform: translateX(0);
+    }
+    100%{
+      transform: translateX(-50%);
+    }
+  }
+  .animate-marquee{
+    animation:marquee 30s linear infinite;
+  }
+  .animate-fade-in{
+    animation: fade-in 0.8s ease-out both;
+  }
+  .animation-delay-100{
+    animation-delay: 100ms;
+  }
+
+  .animation-delay-200{
+    animation-delay: 200ms;
+  }
+
+  .animation-delay-300{
+    animation-delay: 300ms;
+  }
+
+  .animation-delay-400{
+    animation-delay: 400ms;
+  }
+
+  .animation-delay-500{
+    animation-delay: 500ms;
+  }
+
+  .animation-delay-600{
+    animation-delay: 600ms;
+  }
+
+  .animation-delay-800{
+    animation-delay: 800ms;
+  }
+
+ 
+  .animate-float{
+    animation:float 4s ease-in-out infinite;
+  }
+ 
+}
