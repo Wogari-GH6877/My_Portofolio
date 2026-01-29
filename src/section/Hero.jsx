@@ -65,7 +65,7 @@ function Hero() {
             <div className='flex flex-wrap mb-4 mt-7 gap-6 animate-fade-in animation-delay-300'>
               <a href="#contact"><Button size="lg">Contact Me <ArrowRight className='w-5 h-5'/></Button></a>
               <button>
-                <span className='relative flex z-10 justify-center items-center gap-2'><Download className='w-5 h-5'/><a href="https://drive.google.com/file/d/11bXF8fdiqxd73PaIK-2997lUpOOJ9kk6/view?usp=sharing">Download CV</a> </span>
+                <span className='relative flex z-10 justify-center items-center gap-2'><Download className='w-5 h-5'/><a target='_blank' href="https://drive.google.com/file/d/11bXF8fdiqxd73PaIK-2997lUpOOJ9kk6/view?usp=sharing">Download CV</a> </span>
               </button>
             </div>
             {/* Social links */}
