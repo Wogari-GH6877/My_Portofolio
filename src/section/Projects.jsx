@@ -1,6 +1,17 @@
 import { ArrowUpRight, Github } from 'lucide-react';
 import React from 'react'
 const projects = [
+
+ 
+  {
+  title: "Ai_Powered_Doctor_Appointment_Booking-System",
+  description:
+    "A modern full-stack doctor appointment management system featuring secure authentication, appointment booking, patient records, and customizable branding.",
+  image: "/projects/wakcare-dashboard.png",
+  tags: ["MERN", "React", "JWT", "Node.js"],
+  link: "https://ai-powered-doctor-appointment-booki.vercel.app",
+  github: "https://github.com/Wogari-GH6877/Ai_Powered_Doctor_Appointment_Booking-System",
+},
   {
     title: "Gemini Clone (AI Chat Application)",
     description:
@@ -46,6 +57,8 @@ const projects = [
     link: "#",
     github: "https://github.com/Wogari-GH6877/Christians_Mission_Web_App",
   },
+
+  
 ];
 
 function Projects() {
