@@ -18,7 +18,7 @@ const projects = [
       "An AI-powered chat application built using the Google Gemini API, featuring intelligent responses, persistent search history, and a modern, user-friendly interface for seamless interaction.",
     image: "/projects/gemini-clone.png",
     tags: ["React", "JavaScript", "Google Gemini API", "CSS"],
-    link: "mygeminiclone-2025-vdq5.vercel.app",
+    link: "https://mygeminiclone-2025-vdq5.vercel.app/",
     github: "https://github.com/Wogari-GH6877/My_Gemini_clone_2025",
   },
   {
