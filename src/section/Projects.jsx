@@ -12,6 +12,24 @@ const projects = [
   link: "https://ai-powered-doctor-appointment-booki.vercel.app",
   github: "https://github.com/Wogari-GH6877/Ai_Powered_Doctor_Appointment_Booking-System",
 },
+
+{
+  title: "Bootcamp Management System",
+  description:
+    "A full-stack bootcamp management system built for managing divisions, bootcamps, users, training sessions, and attendance. It includes JWT authentication, role-based access control for admins and instructors, and a structured REST API for managing bootcamp operations.",
+  image: "/projects/bootcamp-management.png",
+  tags: [
+    "MongoDB",
+    "Express.js",
+    "React",
+    "Node.js",
+    "JWT",
+    "Mongoose",
+    "REST API"
+  ],
+  link: "",
+  github: "https://github.com/Tnsae-M/CSEC-ASTU-Bootcamp-management-system/tree/csec_wak/backend/src/modules",
+},
   {
     title: "Gemini Clone (AI Chat Application)",
     description:

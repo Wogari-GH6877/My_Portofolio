@@ -9,16 +9,11 @@ const contactInfo = [
     value: "wogariararsa0968@gmail.com",
     href: "mailto:wogariararsa0968@gmail.com",
   },
-  {
-    icon: Phone,
-    label: "Phone",
-    value: "+251 968778471",
-    href: "tel:+251 968778471",
-  },
+  
   {
     icon: MapPin,
     label: "Location",
-    value: "Ethiopia , Adama",
+    value: "Ethiopia , Addis Ababa",
     href: "#",
   },
 ];
