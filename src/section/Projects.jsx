@@ -27,7 +27,7 @@ const projects = [
     "Mongoose",
     "REST API"
   ],
-  link: "",
+  link: "#",
   github: "https://github.com/Tnsae-M/CSEC-ASTU-Bootcamp-management-system/tree/csec_wak/backend/src/modules",
 },
   {
