@@ -2,6 +2,25 @@ import { ArrowUpRight, Github } from 'lucide-react';
 import React from 'react'
 const projects = [
 
+  {
+  title: "AI-Powered E-Commerce Platform",
+  description:
+    "A full-stack AI-powered e-commerce platform built with the MERN stack, featuring secure authentication, product management, Chapa payment integration, and AI-powered features. Customers can interact with a Gemini-powered AI assistant for product-related support, while administrators can generate product descriptions using AI to streamline content management.",
+  image: "/projects/ai-ecommerce.png",
+  tags: [
+    "MongoDB",
+    "Express.js",
+    "React",
+    "Node.js",
+    "Gemini AI",
+    "Chapa",
+    "Cloudinary",
+    "JWT"
+  ],
+  link: "https://ai-powered-e-commerce-roan.vercel.app",
+  github: "https://github.com/Wogari-GH6877/AI-Powered-E-Commerce",
+},
+
  
   {
   title: "Ai_Powered_Doctor_Appointment_Booking-System",
